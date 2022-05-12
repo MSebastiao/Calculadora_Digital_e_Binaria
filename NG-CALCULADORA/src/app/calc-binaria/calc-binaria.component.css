@@ -1,0 +1,40 @@
+* {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 48px;
+    color: #0a3d62;
+    position: absolute;
+    left: 40%;
+  }
+  
+  .container {
+    font-family: "Roboto", sans-serif;
+    background-color: #82ccdd;
+    padding: 20px 40px 40px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 50px;
+    position: absolute;
+    top: 20%;
+    left: 38%;
+  }
+  
+  .row {
+    margin-top: 20px;
+  }
+  
+  .form-group {
+    font-size: 30px;
+    color: black;
+  }
+  
+  input {
+    text-align: center;
+    font-size: 24px;
+  }
+  

@@ -1,0 +1,22 @@
+.container {
+    font-family: "Roboto", sans-serif;
+    background-color:grey;
+    padding: 20px 40px 40px;
+    width: 500px;
+    border-radius: 20px;
+    margin-top: 50px;
+  }
+  
+  .row {
+    margin-top: 20px;
+  }
+  
+  .form-control {
+    font-size: 26px;
+    color: black;
+  }
+  
+  input {
+    text-align: center;
+  }
+  
