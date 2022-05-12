@@ -13,7 +13,6 @@ export class CalcBinariaComponent implements OnInit {
 
   public resultado: string = "";
   public operacao: string = "";
-  public historico: string = "";
 
   ngOnInit(): void {
   }
