@@ -9,6 +9,7 @@ import { CalcBinariaComponent } from './calc-binaria/calc-binaria.component';
 import { GrupoComponent } from './grupo/grupo.component';
 import { CalcDigitalComponent } from './calc-digital/calc-digital.component';
 import { FormsModule } from '@angular/forms';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { FormsModule } from '@angular/forms';
     CalcBinariaComponent,
     GrupoComponent,
     CalcDigitalComponent,
+    MenuComponent,
   ],
   imports: [
     BrowserModule,
