@@ -2,11 +2,11 @@
     font-family: "Roboto", sans-serif;
     background-color:grey;
     padding: 20px 40px 40px;
-    width: 500px;
+    width: 400px;
     border-radius: 20px;
-    margin-top: 50px;
+    margin-top: 60px;
   }
-  
+
   .row {
     margin-top: 20px;
   }
@@ -16,6 +16,18 @@
     color: black;
   }
   
+
+  h2 {
+    text-align: center;
+    font-size: 48px;
+    color: black;
+    left: 34%;
+  }
+  
+  button {
+    width: 64px;
+  }
+
   input {
     text-align: center;
   }

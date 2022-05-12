@@ -7,16 +7,20 @@
   h2 {
     text-align: center;
     font-size: 48px;
-    color: #0a3d62;
+    color: black;
     position: absolute;
-    left: 40%;
+    left: 34%;
+  }
+
+  button {
+    width: 110px;
   }
   
   .container {
     font-family: "Roboto", sans-serif;
-    background-color: #82ccdd;
+    background-color: grey;
     padding: 20px 40px 40px;
-    width: 500px;
+    width: 300px;
     border-radius: 20px;
     margin-top: 50px;
     position: absolute;
@@ -35,6 +39,6 @@
   
   input {
     text-align: center;
-    font-size: 24px;
+    font-size: 18px;
   }
   
