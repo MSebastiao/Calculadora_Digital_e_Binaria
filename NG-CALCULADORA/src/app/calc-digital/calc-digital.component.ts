@@ -15,7 +15,7 @@ export class CalcDigitalComponent implements OnInit {
   }
 
   public montarResultado(digito: string): void {
-    if (this.validacao.validaExpressao(digito, this.resultado)) {
+    if (this.validacao.ehValidaExpressao(digito, this.resultado)) {
       this.resultado += digito;
     }
   }
