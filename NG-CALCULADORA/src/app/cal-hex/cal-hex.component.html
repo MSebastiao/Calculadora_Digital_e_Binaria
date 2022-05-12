@@ -1,0 +1,186 @@
+<link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+  integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+  crossorigin="anonymous"
+/>
+<!-- Link da font -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@500;700&display=swap"
+  rel="stylesheet"
+/>
+
+<h2>Calculadora Hexadecimal</h2>
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="form-group">
+        <input
+          type="text"
+          placeholder="0"
+          [(ngModel)]="resultado"
+          class="form-control"
+          readonly="readonly"
+        />
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <button
+        (click)="montarResultado('9')"
+        type="button"
+        class="btn btn-info btn-lg btn-block"
+      >
+        9
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        (click)="montarResultado('a')"
+        type="button"
+        class="btn btn-info btn-lg btn-block"
+      >
+        a
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        (click)="montarResultado('b')"
+        type="button"
+        class="btn btn-info btn-lg btn-block"
+      >
+        b
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        (click)="montarResultado('c')"
+        type="button"
+        class="btn btn-info btn-lg btn-block"
+      >
+        c
+      </button>
+    </div>
+    
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <button
+        type="button"
+        (click)="montarResultado('5')"
+        class="btn btn-info btn-lg btn-block"
+      >
+        5
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        type="button"
+        (click)="montarResultado('6')"
+        class="btn btn-info btn-lg btn-block"
+      >
+        6
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        type="button"
+        (click)="montarResultado('7')"
+        class="btn btn-info btn-lg btn-block"
+      >
+        7
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        type="button"
+        (click)="montarResultado('8')"
+        class="btn btn-info btn-lg btn-block"
+      >
+        8
+      </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <button
+        (click)="montarResultado('1')"
+        type="button"
+        class="btn btn-info btn-lg btn-block"
+      >
+        1
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        (click)="montarResultado('2')"
+        type="button"
+        class="btn btn-info btn-lg btn-block"
+      >
+        2
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        (click)="montarResultado('3')"
+        type="button"
+        class="btn btn-info btn-lg btn-block"
+      >
+        3
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        (click)="montarResultado('4')"
+        type="button"
+        class="btn btn-info btn-lg btn-block"
+      >
+        4
+      </button>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col-md-3">
+      <button
+        (click)="limpar()"
+        type="button"
+        class="btn btn-danger btn-lg btn-block"
+      >
+        CE
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        (click)="montarResultado('0')"
+        type="button"
+        class="btn btn-info btn-lg btn-block"
+      >
+        0
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        (click)="finalizar()"
+        type="button"
+        class="btn btn-success btn-lg btn-block"
+      >
+        =
+      </button>
+    </div>
+    <div class="col-md-3">
+      <button
+        (click)="montarResultado('+')"
+        type="button"
+        class="btn btn-dark btn-lg btn-block"
+      >
+        +
+      </button>
+    </div>
+  </div>
+</div>

@@ -10,6 +10,7 @@ import { GrupoComponent } from './grupo/grupo.component';
 import { CalcDigitalComponent } from './calc-digital/calc-digital.component';
 import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
+import { CalHexComponent } from './cal-hex/cal-hex.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MenuComponent } from './menu/menu.component';
     GrupoComponent,
     CalcDigitalComponent,
     MenuComponent,
+    CalHexComponent,
   ],
   imports: [
     BrowserModule,
